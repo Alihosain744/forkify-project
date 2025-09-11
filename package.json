@@ -1,0 +1,28 @@
+{
+  "alias": {
+    "fractional": "fracty"
+  },
+  "name": "18-forkify",
+  "version": "1.0.0",
+  "description": "forkify application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ali Hosain Amini",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@parcel/transformer-sass": "^2.14.0",
+    "parcel": "^2.14.0",
+    "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "core-js": "^3.41.0",
+    "fraction.js": "^5.2.2",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.12",
+    "math.js": "^1.1.46",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
