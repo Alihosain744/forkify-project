@@ -216,6 +216,10 @@ const controlRecipeNutrition = async function () {
   nutritionView.render(nutritionData);
 };
 
+const newFeature = function () {
+  console.log('new feature-branch ');
+};
+
 const init = function () {
   // when the page load it render the bookmarks
   bookmarksView.addHandlerRender(controlBookmark);
@@ -233,5 +237,6 @@ const init = function () {
   recipeView.addHandlerAssignRecipe(controlAssignRecipe);
   recipeView.addHandlerShowNutrition(controlRecipeNutrition);
   console.log('Welcome ');
+  newFeature();
 };
 init();
