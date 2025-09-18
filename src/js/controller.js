@@ -232,6 +232,5 @@ const init = function () {
   recipeView.addHandlerAddToShoppingList(controlAddToShoppingList);
   recipeView.addHandlerAssignRecipe(controlAssignRecipe);
   recipeView.addHandlerShowNutrition(controlRecipeNutrition);
-  console.log('Welcome ');
 };
 init();
