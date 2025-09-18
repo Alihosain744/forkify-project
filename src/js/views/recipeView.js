@@ -1,7 +1,7 @@
 // importing icons in parcel 2 add a url: then path
 /* this is the path of our icons file before bundling that in turn it gives us the path
 of icons file after bundling with parcel*/
-import icons from 'inline:../../img/icons.svg';
+import icons from 'url:../../img/icons.svg';
 // console.log(icons);
 import View from './view';
 
