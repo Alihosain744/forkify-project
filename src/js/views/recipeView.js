@@ -2,6 +2,7 @@
 /* this is the path of our icons file before bundling that in turn it gives us the path
 of icons file after bundling with parcel*/
 import icons from 'url:../../img/icons.svg';
+// import '../inline-sprite.js';
 // console.log(icons);
 import View from './view';
 
