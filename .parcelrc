@@ -1,0 +1,12 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "src/img/icons.svg": [
+      "@parcel/transformer-raw"
+    ]
+  },
+  "optimizers": {
+    "*.svg": [],
+    "*.html": []
+  }
+}
