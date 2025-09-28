@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-env": "^7.26.9",
+    "@parcel/transformer-inline-string": "^2.16.0",
     "@parcel/transformer-raw": "^2.14.0",
     "@parcel/transformer-sass": "^2.14.0",
     "parcel": "^2.14.0",
